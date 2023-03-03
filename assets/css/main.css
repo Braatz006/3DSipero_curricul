@@ -46,9 +46,32 @@ background: linear-gradient(90deg, var(--quatenary-color) 0%, var(--primary-colo
 font-size: 0.9rem;
 font-weight: bold;
 color: var(--ligth-color);
+margin: 0;
+padding: 0;
 }
+
+.skills__title-dark {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--quatenary-color);
+    margin: 0;
+    padding: 0;
+    }
 
 .skills__label {
     font-size: 0.8rem;
-    color:var( --ligth-color)
+    color:var( --ligth-color);
+    margin: 0;
+    padding: 0;
+}
+
+.skills__description{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    padding: 10px;
+    height: 200px;
+    width: 150px;
 }
